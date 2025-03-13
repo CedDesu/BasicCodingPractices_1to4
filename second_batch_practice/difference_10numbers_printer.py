@@ -11,7 +11,7 @@ num_1 = int(input("Enter number 1: "))
 
 rest_of_numbers = [int(input(f"Enter number {i+2}: ")) for i in range(9)]
 
-
+print ("The result of the first number subtracted from the rest is", num_1 - sum(rest_of_numbers))
 
 
 
