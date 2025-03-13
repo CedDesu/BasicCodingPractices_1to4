@@ -7,7 +7,11 @@ raise one number to the other:
 print(sum(numbers))
 
 """
+num_1 = int(input("Enter number 1: "))
 
-numbers = [float(input(f"Enter num_{i+1}: ")) for i in range(10)]
+rest_of_numbers = [int(input(f"Enter number {i+2}: ")) for i in range(9)]
 
-print("The sum of all the numbers is", sum(numbers))
+
+
+
+
