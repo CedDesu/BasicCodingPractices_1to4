@@ -4,12 +4,12 @@ Input two numbers
 num = float(input("Enter number: "))
 
 
-Add two numbers:
-print(num_1 + num_2)
+subtract two numbers:
+print(num_1 - num_2)
 
 """
 
 num_1 = float(input("Enter the first number: "))
 num_2 = float(input("Enter the second number: "))
 
-print(num_1 + num_2)
+print(num_1 - num_2)
