@@ -1,0 +1,7 @@
+"""
+start from first odd number (1)
+
+use while loop and <= to print from 0 to 100
+
+print first odd number
+"""
