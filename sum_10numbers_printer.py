@@ -10,3 +10,5 @@ print(sum(numbers))
 """
 
 numbers = [float(input(f"Enter num_{i+1}: ")) for i in range(10)]
+
+print("The sum of all the numbers is", sum(numbers))
