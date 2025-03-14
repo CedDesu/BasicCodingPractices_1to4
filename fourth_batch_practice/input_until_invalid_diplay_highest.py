@@ -11,7 +11,7 @@ while True:
         break
 
 use greater than function and if to determine highest number:
-    if highest is None or number < lowest:
+    if highest is None or number < highest:
         highest = number_input
 
 use if and not functions to print the highest number
