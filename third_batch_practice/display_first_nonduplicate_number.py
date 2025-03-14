@@ -5,20 +5,22 @@ use set to store first entries
 
 for first entries:
 for num in numbers:
-    if num not in first_entry:
-        first_entry.add(num)
-    removed_numbers.append(num)
+    if num not in first_entries:
+        first_entries.add(num)
+        filtered_numbers.append(num)
 
 print list of numbers
 """
 
-numbers = [float(input(f"Enter num_{i+1}: ")) for i in range(10)]
+numbers = [input(f"Enter number {i+1}: ") for i in range(10)]
 
-first_entry = set()
-removed_numbers = []
+first_entries = set()
+filtered_numbers = []
 
 for num in numbers:
-    if num not in first_entry:
-        first_entry.add(num)
-    removed_numbers.append(num)
-    pass
+    if num not in first_entries:
+        first_entries.add(num)
+        filtered_numbers.append(num)
+
+
+print(filtered_numbers, end="")
