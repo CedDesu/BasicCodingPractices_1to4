@@ -26,3 +26,12 @@ while True:
         print("Invalid input. Exiting program.")
         break
 
+    if number_input in first_entries:
+        print("duplicate")
+
+    else:
+        print("unique")
+        first_entries.add(number_input)
+
+
+
