@@ -5,6 +5,9 @@ set up while loop for input until invalid
 
 convert input into integer
 
+if argument to find most duplicates
+
+if and else statement for printing the most duplicates when invalid input entered
 """
 
 numbers = []
@@ -20,6 +23,9 @@ while True:
 
 if numbers:
     most_frequent = max(set(numbers), key=numbers.count)
-    frequency = numbers.count(most_frequent)
 
-    print(f"Number with the most duplicates: {most_frequent} (appeared {frequency} times)")
+    print(f"Most Duplicates: {most_frequent}")
+
+else:
+    print("No valid numbers were entered.")
+
