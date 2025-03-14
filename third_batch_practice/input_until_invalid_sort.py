@@ -25,3 +25,10 @@ while True:
         break
 
     numbers.append(int(number_input))
+
+numbers.sort()
+
+if numbers:
+    print(numbers, end=" ")
+else:
+    print("No valid numbers were entered.")
