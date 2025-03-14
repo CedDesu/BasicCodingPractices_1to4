@@ -31,5 +31,8 @@ while True:
     if lowest is None or number < lowest:
         lowest = number
 
-    pass
+if lowest is not None:
+    print("Lowest number entered:", lowest)
+else:
+    print("No valid numbers were entered.")
 
