@@ -1,5 +1,5 @@
 """
-initialize lowest
+initialize highest
 
 use while loop to ask until invalid user input
 
@@ -10,14 +10,14 @@ while True:
         print("Invalid input. Exiting program.")
         break
 
-use less than function and if to determine lowest number:
-    if lowest is None or number < lowest:
-        lowest = number_input
+use greater than function and if to determine highest number:
+    if highest is None or number < lowest:
+        highest = number_input
 
-use if and not functions to print the lowest number
+use if and not functions to print the highest number
 """
 
-lowest = None
+highest = None
 
 while True:
     number_input = input("Enter a number (or any non-number to stop): ")
@@ -28,10 +28,10 @@ while True:
 
     number = int(number_input)
 
-    if lowest is None or number < lowest:
-        lowest = number
+    if highest is None or number > highest:
+        highest = number
 
-if lowest is not None:
-    print("Lowest number entered:", lowest)
+if highest is not None:
+    print("Highest number entered:", highest)
 else:
     print("No valid numbers were entered.")
