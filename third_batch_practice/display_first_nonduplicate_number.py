@@ -7,7 +7,18 @@ for first entries:
 for num in numbers:
     if num not in first_entry:
         first_entry.add(num)
-    filtered_numbers.append(num)
+    removed_numbers.append(num)
 
 print list of numbers
 """
+
+numbers = [float(input(f"Enter num_{i+1}: ")) for i in range(10)]
+
+first_entry = set()
+removed_numbers = []
+
+for num in numbers:
+    if num not in first_entry:
+        first_entry.add(num)
+    removed_numbers.append(num)
+    pass
