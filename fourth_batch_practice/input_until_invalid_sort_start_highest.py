@@ -26,7 +26,7 @@ while True:
 
     numbers.append(int(number_input))
 
-numbers.sort()
+numbers.sort(reverse=True)
 
 if numbers:
     print(numbers, end=" ")
