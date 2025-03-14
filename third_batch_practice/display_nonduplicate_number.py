@@ -1,5 +1,6 @@
 """
-range function print 0 to 100
+ask user for 10 inputs
 
 use print, if and != to exclude duplicates
 """
+
